@@ -237,15 +237,15 @@ img {
 
 }
 .cat {
-  height: 300px;
-  width: 300px;
+  height: 600px;
+  width: 600px;
  }
 
  .inicio{
-  display:flexbox;
-  flex-direction: column;
-  
-  align-items:flex-end;
+  display:grid;
+  grid-template-rows: repeat(3,700px);
+  align-items: center;
+  justify-items:auto;
 
 
 
