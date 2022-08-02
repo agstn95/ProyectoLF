@@ -166,6 +166,8 @@
   /*Código de la Galleria */
 @import url('"https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto+Mono&display=swap');
 
+
+
 * {
     box-sizing: border-box;
 }
@@ -189,11 +191,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 100px 100px 100px;
+    
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
+  
 }
 
 .img-hover-zoom {
@@ -231,25 +235,64 @@ body {
 
 /*Código del Home */
 
+
 img {
   max-width: 100%;
   max-height: 100%;
+  padding: 20px;
+ margin: 10;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  place-items: center;
+  
+}
+
+.element {
+  height: 1000px;
+  width: 1000px;
+
+}
+
+header {
+  font-size: 40px;
+  font-family: 'Crimson Text', serif;
+  padding:30px;
+  display: grid;
+  
+
+  
+}
+
+/* img {
+  max-width: 100%;
+  max-height: 100%;
+  place-items: center;
 
 }
 .cat {
   height: 600px;
   width: 600px;
+
  }
 
  .inicio{
   display:grid;
-  grid-template-rows: repeat(3,700px);
-  align-items: center;
-  justify-items:auto;
+  grid-template-columns: repeat(1,700px);
+  align-content:space-between;
+  justify-content:center;
+  place-items: center;
+ 
 
 
 
-}
+} */
+
+
+
 
 
 
